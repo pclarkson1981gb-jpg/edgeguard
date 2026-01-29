@@ -1,0 +1,31 @@
+{
+  "name": "@edgeguard/protect",
+  "version": "1.0.0",
+  "description": "Middleware to block AI scrapers and save serverless costs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "nextjs",
+    "vercel",
+    "middleware",
+    "security",
+    "bot-protection",
+    "cost-saving"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">=13.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "next": "^14.0.0"
+  }
+}
